@@ -1,0 +1,47 @@
+#top
+{
+    background-color: green;
+}
+
+.special
+{
+    flex-direction: column;
+  
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.header__background
+{
+    background-color: #3c4b9b;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.text__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.article__background
+{
+    background: linear-gradient(to left, #94f894, #38fa38);
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.magistrala__size
+{
+    width: clamp(20rem, calc(40vw + 1rem), 40rem);
+    height: clamp(20rem, calc(30vw + 1rem), 30rem);;
+}

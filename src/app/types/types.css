@@ -1,0 +1,81 @@
+#one
+{
+    background-color: green;
+}
+
+
+.position
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.header__background
+{
+    background-color: #3c4b9b;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    font-size: clamp(2rem, calc(2vw + 1rem), 2rem);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.text__font
+{
+    font-size: clamp(1.5rem, calc(1.5vw + 1rem), 1.5rem);
+}
+
+.article__background
+{
+    background: linear-gradient(to left, #94f894, #38fa38);
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+.Pan__background
+{
+    background-color: #eeff00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Lan__background
+{
+    background-color: #ffdd00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Man__background
+{
+    background-color: #ffa600;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Wan__background
+{
+    background-color: #ff3c00;
+    padding: clamp(1rem, 1vw, 1rem) clamp(1rem, 1vw, 1rem);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.margin
+{
+    margin: clamp(2rem, calc(2vw + 1rem), 2rem) clamp(2rem, calc(2vw + 1rem), 2rem);
+}
+
